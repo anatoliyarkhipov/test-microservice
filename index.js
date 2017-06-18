@@ -1,3 +1,3 @@
 module.exports = function(ctx, cb) {
-    cb(null, { hello: ctx.data.name || 'Anonymous' });
-};
+    cb(null, { hello: ctx.data.name || 'Dude' })
+}
